@@ -4,9 +4,7 @@ import pickle
 from PIL import Image
 import os
 
-# Definisi jalur model
-model_directory = r"D:\Semester 5\Pembelajaran Mesin dan Pembelajaran Mendalam\pertemuan 5\Introduction to Deep Learning (Praktek)"
-model_path = os.path.join(model_directory, "best_model.pkl")
+model_path = 'rf_best_model.pkl'
 
 # Load the model
 if os.path.exists(model_path):
