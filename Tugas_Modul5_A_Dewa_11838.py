@@ -4,7 +4,7 @@ import pickle
 from PIL import Image
 import os
 
-model_path = 'rf_best_model.pkl'
+model_path = r'best_model.pkl'
 
 # Load the model
 if os.path.exists(model_path):
